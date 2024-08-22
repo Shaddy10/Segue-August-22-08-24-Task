@@ -1,0 +1,138 @@
+1) What would be output for the code below
+class P1 {
+public static void main(String[] args) {
+System.out.println("5" +3+8); =
+	System.out.println("5" + (3+8)); 
+System.out.println("5+3" + 8);
+  }
+}
+a) compile time error b) runtime error c) 538 511 5+38 d) 511 511 511
+
+Ans: c) 538 511 5+38
+__________________________________________________
+2) What would be output for the code below
+class P2 {
+public static void main(String[] args) {
+int i=10;
+	int j=i++;
+System.out.println(i);
+  }
+}
+A)	10 10 B) 11 11 c) 10 11 d) 11 10
+
+Ans:11
+_____________________________________________
+3) What would be output for below code
+class P3 {
+public static void main(String[] args) {
+inti=10;
+	int j=i++ + i++ + ++i + ++i + i++;
+System.out.println(j);
+  }
+}
+a) 62 b) 58 c) 61 d) 59
+
+Ans: A)62
+__________________________________________
+4) What would be output for below code
+class P4 {
+public static void main(String[] args) {
+intch='A';
+	System.out.println(ch);
+   }
+}
+A) compile time error B) Runtime error c) 65 d) No Output 
+
+Ans:c) 65
+__________________________________________
+5) What would be output for below code
+class P5 {
+public static void main(String[] args) {
+int x;
+System.out.println(x);
+   }
+}
+A) Compile Time Error B) Runtime Error C) No Output D) 0
+
+Ans: A) Compile Time Error
+___________________________________________________
+
+6)
+What would be output for the below code
+class P7 {
+boolean climate;
+public static void main(String[] args) {
+System.out.println(new P7().climate);
+   }
+}
+A) true B) false C) Compile Time Error D) Runtime Error
+
+Ans: B) false
+___________________________________________________
+7) What would be output for below code
+10) Identify which statements are true or false
+Overloaded methods should differ in arg list 
+Overloaded methods may differ in return type 
+Overloaded methods may differ in access specifier
+A) false true true B) True TrueTrue C) True False False D) True TrueTrue
+
+Ans: A) false true true
+_____________________________________________
+8) What would be output for the below code
+public class Hello extends String {
+public static void main(String[] args) {
+System.out.println("Hello World...");
+  }
+}
+A) Compile Time Error D) Runtime Error C) Hello World D) No Outupt
+
+ANs:A) Compile Time Error
+___________________________________________________
+9) A Thread can be create by
+A) Extending Thread Class B) Implements Runnable C) Both the Above D) None Of Above
+
+Ans: C)
+_________________________________________________
+10) What would be output for below code
+Public class Test implements Runnable
+{
+	Public static void main(String[] args) {
+		Test t = new Test();
+		t.run();	
+		t.start();
+}
+	Public void run() {
+		System.out.println(“run-test”);
+	} 
+}
+a)	run-test run-test b) run-test c) Compile Time Error D) Runtime Error
+
+______________________________________________________________________
+11) Which tag should be used to pass information from JSP to included JSP?
+a) Using <%jsp:page> tag
+b) Using <%jsp:param> tag
+c) Using <%jsp:import> tag
+d) Using <%jsp:useBean> tag
+12) Which is not a directive?
+a) include
+b) page
+c) export
+d) useBean
+13) Which is mandatory in <jsp:useBean /> tag?
+a) id, class
+b) id, type
+c) type, property
+d) type,id
+14) In JSP Action tags which tags are used for bean development?
+a. jsp:useBean
+b. jsp:setPoperty
+c. jsp:getProperty
+d. All mentioned above
+15) Which of the following is an advantage of the statement – Separation of business logic from JSP ?
+
+a. Custom Tags in JSP
+b. JSP Standard Tag Library
+c. All the above
+d. None of the above
+
+
